@@ -1,21 +1,74 @@
 aid: axiom-trust
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/axiom-trust.png
 name: Axiom Trust
-description: Axiom Trust is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'Axiom Trust Company is a vertically integrated trust company and technology
+  platform serving investment advisors, attorneys, trustees, and private families.
+  Founded in 2025 by David Meister and headquartered in Las Vegas, Nevada, Axiom pairs
+  a regulated corporate trustee with a proprietary data-driven administration platform,
+  using technology to remove the administrative bottleneck of traditional trust administration
+  so named trust officers can focus on fiduciary judgment and family relationships.
+  The company positions itself as infrastructure rather than a competitor for the client
+  relationship: it acts as independent or directed trustee, handles bill pay, notices,
+  distributions, approvals and principal & income accounting, and takes on complex mandates
+  other institutions avoid — closely held entities, private investments, contested situations,
+  and special needs trusts. Axiom raised $11.8M in pre-seed and seed funding led by
+  Lightspeed Venture Partners, with Wischoff Ventures, Runa Capital, SNR, Primetime
+  Partners, and Mercury founder Immad Akhund participating. As of this profile Axiom
+  Trust publishes no public developer program, API documentation, or machine-readable
+  API artifacts; its client-facing application is a private authenticated web app.'
 url: https://raw.githubusercontent.com/api-evangelist/axiom-trust/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - lightspeed-venture-partners
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: no-public-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Trust Services
+- Wealth Management
+- Fiduciary
+- Financial Services
+- Estate Planning
+- Trust Administration
+- Wealth Transfer
+- Financial Infrastructure
+- Artificial Intelligence
 apis: []
+common:
+- type: DomainSecurity
+  url: security/axiom-trust-domain-security.yml
+- type: Website
+  url: https://axiom-trust.com/
+- type: Login
+  url: https://app.axiom-trust.com/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/axiomtrust
+- type: Support
+  url: mailto:hello@axiom-trust.com
+- type: WellKnown
+  url: well-known/axiom-trust-well-known.yml
+- type: LLMsTxt
+  url: llms/axiom-trust-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com

@@ -1,0 +1,78 @@
+# Axiom Trust Company
+
+> Vertically integrated trust company and technology platform serving investment
+> advisors, attorneys, trustees, and private families. Axiom pairs a regulated
+> corporate trustee with a proprietary data-driven administration platform.
+
+generated: 2026-07-20
+method: generated
+source: apis.yml + https://axiom-trust.com (marketing site content)
+
+## About
+
+Axiom Trust Company was founded in 2025 by David Meister and is headquartered in
+Las Vegas, Nevada. It operates as a regulated corporate trustee combined with an
+internal software platform for trust administration.
+
+Positioning: Axiom provides regulated infrastructure and operational precision
+for modern fiduciaries and private families without competing for the client
+relationship. It does not replace the advisor or the attorney.
+
+Service models:
+- Independent Trustee — executes an advisor's investment strategy under the
+  advisor's brand, handling the administrative burden.
+- Directed Trustee — the client retains discretion, investment authority, and
+  family governance structures; Axiom executes the mandate and works with the
+  client's preferred custodian.
+- Delegated administration — bill pay, notices, distributions, approvals, and
+  principal & income accounting, with an audit-ready record of decisions.
+
+Segments served: investment advisors, attorneys and trustees, and private
+families.
+
+Complex mandates accepted: closely held entities, private investments,
+contested situations, and special needs trusts.
+
+Funding: $11.8M in pre-seed and seed funding led by Lightspeed Venture Partners,
+with Wischoff Ventures, Runa Capital, SNR, Primetime Partners, and Mercury
+founder Immad Akhund participating.
+
+## API surface
+
+Axiom Trust publishes NO public API as of 2026-07-20. Specifically:
+
+- No developer portal, API documentation, or API reference was found.
+- No OpenAPI, AsyncAPI, GraphQL, or Protobuf definition is published.
+- No SDKs or client libraries were found on npm, PyPI, Maven Central, NuGet,
+  pkg.go.dev, RubyGems, Packagist, or crates.io.
+- No public GitHub organization was found.
+- No MCP server, agent skills, or llms.txt is published by the provider.
+- No /.well-known/ discovery documents are served. Note that
+  axiom-trust.com is a single-page application whose catch-all route returns
+  HTTP 200 with the HTML shell for unknown paths, which can look like a hit;
+  the bodies were inspected and contain no discovery documents.
+- api.axiom-trust.com resolves but returns 404 on all probed paths and appears
+  to be a private backend.
+- app.axiom-trust.com is a private authenticated client application.
+
+Any integration with Axiom Trust is therefore a direct commercial conversation,
+not a self-serve developer onboarding.
+
+## Links
+
+- Website: https://axiom-trust.com/
+- Client application (authenticated): https://app.axiom-trust.com/
+- LinkedIn: https://www.linkedin.com/company/axiomtrust
+- Contact: hello@axiom-trust.com
+
+## Security posture (probed 2026-07-20)
+
+- HTTPS: yes, TLS 1.3
+- HSTS: not set
+- DNSSEC: not enabled
+- CAA: no records
+- SPF: no SPF record published
+- DMARC: no DMARC record published
+- security.txt: not published
+- Vulnerability disclosure program: none found
+- Trust center / published certifications: none found
